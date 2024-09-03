@@ -30,12 +30,12 @@ class Module:
         return list(m.values())
 
     def train(self) -> None:
-        """Set the mode of this module and all descendent modules to `train`."""
+        """Set the `training` flag of this and descendent to true."""
         # TODO: Implement for Task 0.4.
         raise NotImplementedError("Need to implement for Task 0.4")
 
     def eval(self) -> None:
-        """Set the mode of this module and all descendent modules to `eval`."""
+        """Set the `training` flag of this and descendent to false."""
         # TODO: Implement for Task 0.4.
         raise NotImplementedError("Need to implement for Task 0.4")
 
